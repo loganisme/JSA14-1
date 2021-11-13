@@ -1,0 +1,53 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: fit-content;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.navbar:hover {
+    border-radius: 10px;
+    background-color: aquamarine;
+    border-bottom: 2px solid orange;
+    transition: 0.5s;
+}
+.container {
+    border: 1px solid black;
+}
+.container .demoimg {
+    transition: 0.5s;
+    filter: brightness(0.5);
+}
+.container .demoimg:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+    filter: brightness(1);
+}
+
+.demoimg-wrapper {
+    border: 1px solid black;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+
+
+
+
+
+.demo-background{
+    height: 100vh; 
+    /* vh = view height; */
+    width: 100vw;
+    /* vw = view width; */
+    background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
